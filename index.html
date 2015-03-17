@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/default.css">
+	<title>陈伟霆</title>
+</head>
+<body>
+	<div id="mobileContent">
+		<div id="summary">
+			<div id="name">陈伟霆</div>
+			<div class="subText">香港流行男歌手、演员、主持人</div>
+			<div class="subText">1985年11月21日出生于中国香港</div>
+		</div>
+		<div id="bigThings">
+			<div class="subTitle">大事记</div>
+			<ul>
+				<li class="wrapper">
+					<div class="leftText">参加全球华人新秀香港区<br />选拔赛而进入演艺圈</div>
+					<div class="year">2003</div>
+					<div class="rightText"></div>
+				</li>
+				<li class="timeLine"></li>
+				<li class="wrapper">
+					<div class="leftText"></div>
+					<div class="year">2006</div>
+					<div class="rightText">成为SUN BOY'Z 组合一员</div>
+				</li>
+				<li class="timeLine"></li>
+				<li class="wrapper">
+					<div class="leftText">独立发展，推出首张<br />个人专辑《WILL POWER》</div>
+					<div class="year">2008</div>
+					<div class="rightText"></div>
+				</li>
+				<li class="timeLine"></li>
+				<li class="wrapper">
+					<div class="leftText"></div>
+					<div class="year">2014</div>
+					<div class="rightText">在《古剑奇谭》中饰演大师兄<br />陵越，被内地观众熟知并喜爱</div>
+				</li>
+			</ul>
+		</div>
+		<div id="albums">
+			<div class="subTitle">音乐专辑</div>
+			<ul class="wrapper">
+				<li id="piu">
+					<div class="cover"></div>
+					<div class="albumName">Pop It Up</div>
+				</li>
+				<li id="wow">
+					<div class="cover"></div>
+					<div class="albumName">Wow</div>
+				</li>
+				<li id="hot">
+					<div class="cover"></div>
+					<div class="albumName">Heads or Tails</div>
+				</li>
+				<li id="dywd">
+					<div class="cover"></div>
+					<div class="albumName">Do You Wanna Dance</div>
+				</li>
+				<li id="warrior">
+					<div class="cover"></div>
+					<div class="albumName">战士</div>
+				</li>
+				<li id="wp">
+					<div class="cover"></div>
+					<div class="albumName">Will Power</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+<!--<script type="text/javascript" src="./js/swiper.jquery.min.js"></script>-->
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript">
+	window.onresize = function(){
+		var scale = $(window).height()/1920;
+		$(".swiper-container").height(1920*scale);
+		$(".swiper-container").width(1080*scale);
+	}
+</script>
+</body>
+</html>
