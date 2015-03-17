@@ -1,0 +1,31 @@
+@media screen and (min-width:640px){
+	
+}
+
+body{ background-color: #e8f0f6;  font-family: 微软雅黑;}
+.subTitle{ font-size:48px; text-align: center; color:#020334; margin-bottom:80px; }
+.wrapper:after{clear:both;content:".";display:block;margin:0;padding:0;font-size:0;height:0;line-height:0;overflow:hidden;}
+
+#summary { background: url(../images/bgs.png) center bottom no-repeat; background-size: 100%; color: #020334;}
+#summary #name { margin:100px 60px 60px 0; font-size: 96px; text-align: right;}
+#summary .subText{ font-size: 40px; margin-right: 60px; text-align: right; line-height: 60px; }
+
+#bigThings{margin-top: -50px; margin-bottom: 180px;}
+#bigThings ul{ width:1000px; margin: auto; }
+/*#bigThings li{ clear:both; height: 90px;}*/
+#bigThings .leftText, #bigThings .rightText{ color: #454545; width:425px; height: 90px; font-size: 24px; line-height: 40px;}
+#bigThings .leftText{float: left; margin-right: 30px; text-align: right;}
+#bigThings .rightText{float: right; margin-left: 30px; text-align: left; }
+#bigThings .year{ color: #020334; font-size: 24px; text-align: center; float:left; height: 80px; line-height: 80px; width: 80px; border:solid 5px #00a1e9; border-radius:80px;}
+#bigThings .timeLine{ width: 2px; height: 40px; background-color: #bbb; margin: 10px auto;}
+
+#albums ul{margin: auto; width: 1020px; text-align: center;}
+#albums li{float: left; width:340px; margin-bottom: 50px;}
+#albums .cover{width:240px; height: 240px; margin: auto; }
+#albums .albumName{ font-size: 30px; line-height: 50px; height: 50px; color: #454545;}
+#piu .cover{ background: url(../images/popitup.jpg) center no-repeat; background-size: 100%;}
+#wow .cover{ background: url(../images/wow.jpg) center no-repeat; background-size: 100%;}
+#hot .cover{ background: url(../images/headsortails.jpg) center no-repeat; background-size: 100%;}
+#dywd .cover{ background: url(../images/doyouwannadance.jpg) center no-repeat; background-size: 100%;}
+#warrior .cover{ background: url(../images/warrior.jpg) center no-repeat; background-size: 100%;}
+#wp .cover{ background: url(../images/willpower.jpg) center no-repeat; background-size: 100%;}
